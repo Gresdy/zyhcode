@@ -4,7 +4,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { webpackBundler } from '@vuepress/bundler-webpack'
 
 export default defineUserConfig({
-  base: "/你的仓库名/",  // 把"你的仓库名"改成你的实际仓库名
+  base: "/zyhcode/",
   title: "张永宏 博客",
   description: "Just playing around",
   bundler: viteBundler(),
@@ -151,12 +151,18 @@ export default defineUserConfig({
         children: [
           { text: "模型对比", link: "/docs/damoxing/00.damoxingduibi" },
           { text: "Qwen", link: "/docs/damoxing/01.Qwen" },
+          { text: "MiniMax", link: "/docs/damoxing/02.MiniMax" },
           { text: "DeepSeek", link: "/docs/damoxing/03.Deepseek" },
+          { text: "GLM", link: "/docs/damoxing/04.GLM" },
+          { text: "Step", link: "/docs/damoxing/05.Step" },
           { text: "Kimi", link: "/docs/damoxing/06.Kimi" },
           { text: "ChatGPT", link: "/docs/damoxing/07.Chatgpt" },
+          { text: "文心一言", link: "/docs/damoxing/08.wenxinyiyan" },
+          { text: "豆包", link: "/docs/damoxing/09.Doubao" },
           { text: "Claude", link: "/docs/damoxing/10.Claude" },
           { text: "Gemini", link: "/docs/damoxing/11.Gemini" },
           { text: "Llama", link: "/docs/damoxing/12.Llama" },
+          { text: "Yi", link: "/docs/damoxing/13.Yi" },
         ],
       },
       { text: "文档集", link: "/docs/theme-reco/home" },

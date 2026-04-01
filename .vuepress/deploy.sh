@@ -10,8 +10,8 @@ npm run build
 
 # 推送dist文件夹到gh-pages分支
 # 注意：把你的 GitHub 用户名和仓库名填到下面
-GIT_USER="你的GitHub用户名"
-GIT_REPO="你的仓库名"
+GIT_USER="Gresdy"
+GIT_REPO="zyhcode"
 GIT_BRANCH="gh-pages"
 
 # 删除旧的 dist 目录中的 .git（如果有）
